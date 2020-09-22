@@ -36,3 +36,7 @@ Use this OpenCore EFI to run MacOS Big Sur on Acer Swift 3 SF314-54 (2018)
 - Install **Captin.dmg** to have a Caps Lock indicator on screen.
 
 - Install **ComboJack** to assist with Headphones / Headset
+
+- **Apple Watch** unlock is not consitant but seems to be a generic problem on hackintoshes
+
+- **2.4 GHz interference** with Bluetooth also seems to be a common problem
