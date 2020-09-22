@@ -35,4 +35,4 @@ Use this OpenCore EFI to run MacOS Big Sur on Acer Swift 3 SF314-54 (2018)
 
 - Install **Captin.dmg** to have a Caps Lock indicator on screen.
 
-- Install **ComboJack** to assist with Headphones / Headfset
+- Install **ComboJack** to assist with Headphones / Headset
