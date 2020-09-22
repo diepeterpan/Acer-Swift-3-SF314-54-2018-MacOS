@@ -24,8 +24,15 @@ Use this OpenCore EFI to run MacOS Big Sur on Acer Swift 3 SF314-54 (2018)
 - Everything else works well
 
 - Mapped screen brightness to **Fn + F3** and **Fn + F4**
+  
   You will have to plug in a USB keyboard before finalizing the mapping
   
+<img src="IMG_0641.PNG"/>
+ 
 - Ensure to edit the **config.plist** and add valid  **PlatformInfo Generic** and **SMBIOS** values
 
 <img src="Image1.png"/>
+
+- Install **Captin.dmg** to have a Caps Lock indicator on screen.
+
+- Install **ComboJack** to assist with Headphones / Headfset
