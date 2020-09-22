@@ -14,3 +14,13 @@ Use this OpenCore EFI to run MacOS Big Sur on Acer Swift 3 SF314-54 (2018)
 | Sound Card          | Realtek ALC256 (layout-id:13)           |
 | Wireless Card       | Swapped with a DW1820A                     |
 | SD Card Reader      | Realtek                 |
+
+
+## Current Status
+
+- **Fingerprint sensor** is not working
+- **Built-in DMIC ** is not working
+
+- Everything else works well
+
+- Mapped screen brightness to Fn + F3 & Fn + F4
