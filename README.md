@@ -26,3 +26,5 @@ Use this OpenCore EFI to run MacOS Big Sur on Acer Swift 3 SF314-54 (2018)
 - Mapped screen brightness to Fn + F3 & Fn + F4
 
 - Ensure to edit the config.plist and add valid  PlatformInfo Genertic and SMBIOS values
+
+<img src="Image1.png"/>
