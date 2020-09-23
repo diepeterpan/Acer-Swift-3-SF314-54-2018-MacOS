@@ -39,4 +39,4 @@ Use this OpenCore EFI to run MacOS Big Sur on Acer Swift 3 SF314-54 (2018)
 
 - **Apple Watch** unlock is not consitant but seems to be a generic problem on hackintoshes
 
-- **2.4 GHz interference** with Bluetooth also seems to be a common problem
+- **2.4 GHz interference Wifi** with Bluetooth also seems to be a common problem
