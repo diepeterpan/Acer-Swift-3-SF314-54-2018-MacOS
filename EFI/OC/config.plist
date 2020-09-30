@@ -1711,7 +1711,7 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>ScanPolicy</key>
 			<integer>19858179</integer>
 			<key>Vault</key>
@@ -1745,10 +1745,22 @@
 				<string>disabledarkwake=0 -nobiobeta</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
-				<key>disable-csr-active-config</key>
-				<data>ZwAAAA==</data>
+				<key>#csr-active-config</key>
+				<data>/w8AAA==</data>
 				<key>SystemAudioVolume</key>
 				<data>AEY=</data>
+			</dict>
+			<key>#4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<dict>
+				<key>DefaultBackgroundColor</key>
+				<data>v7+/AA==</data>
+				<key>UIScale</key>
+				<data>AQ==</data>
+			</dict>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<dict>
+				<key>rtc-blacklist</key>
+				<data>WPs=</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1758,6 +1770,7 @@
 				<string>boot-args</string>
 				<string>booter-fileset-basesystem</string>
 				<string>booter-fileset-kernel</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -1817,7 +1830,7 @@
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02V18ZJHV2N</string>
+			<string></string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
