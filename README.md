@@ -23,9 +23,9 @@ Use this OpenCore EFI to run MacOS Big Sur on Acer Swift 3 SF314-54 (2018)
 
 - Everything else works well
 
-- Mapped screen brightness to **Fn + F3** and **Fn + F4**
+- Brightness keys now using new .kext and working 100% with normal brightness keys **F3** and **F4**
   
-  You will have to plug in a USB keyboard before finalizing the mapping
+  You will have to plug in a USB keyboard revert mapping below if previously using the old method
 
 <img src="IMG_0641.PNG"/>
  
