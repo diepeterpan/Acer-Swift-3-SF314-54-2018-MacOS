@@ -56,7 +56,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fixing Power Management: Prebuilt</string>
+				<string>Fixing Power Management: Prebuilt
+Fixing Power Management: Prebuilt
+Fixing Power Management Prebuilt</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -352,6 +354,8 @@
 		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -1245,6 +1249,8 @@
 			<true/>
 			<key>ExternalDiskIcons</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
@@ -1328,6 +1334,8 @@
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<true/>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>DmgLoading</key>
@@ -1342,10 +1350,10 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
-			<key>SecureBootModel</key>
-			<string>Disabled</string>
 			<key>ScanPolicy</key>
 			<integer>19858179</integer>
+			<key>SecureBootModel</key>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1364,6 +1372,10 @@
 				<string>UEFI Shell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -1371,17 +1383,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<dict>
-				<key>boot-args</key>
-				<string>disabledarkwake=0 -nobiobeta brcmfx-country=#a brcmfx-aspm bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300</string>
-				<key>run-efi-updater</key>
-				<string>No</string>
-				<key>#csr-active-config</key>
-				<data>/w8AAA==</data>
-				<key>SystemAudioVolume</key>
-				<data>AEY=</data>
-			</dict>
 			<key>#4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
@@ -1393,6 +1394,17 @@
 			<dict>
 				<key>rtc-blacklist</key>
 				<data>WPs=</data>
+			</dict>
+			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+			<dict>
+				<key>SystemAudioVolume</key>
+				<data>AEY=</data>
+				<key>boot-args</key>
+				<string>keepsyms=1 swd_panic=1</string>
+				<key>#csr-active-config</key>
+				<data>/w8AAA==</data>
+				<key>run-efi-updater</key>
+				<string>No</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1418,6 +1430,8 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>CustomMemory</key>
+		<false/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
@@ -1426,12 +1440,12 @@
 			<string></string>
 			<key>ProcessorType</key>
 			<integer>1541</integer>
-			<key>SystemMemoryStatus</key>
-			<string>Upgradable</string>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
 			<false/>
+			<key>SystemMemoryStatus</key>
+			<string>Upgradable</string>
 			<key>SystemProductName</key>
 			<string>MacBookPro14,2</string>
 			<key>SystemSerialNumber</key>
@@ -1475,8 +1489,6 @@
 			<data>fvUP/wAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
 			<data>f/8f/wAAAAA=</data>
-			<key>MemoryFormFactor</key>
-			<integer>13</integer>
 			<key>PlatformFeature</key>
 			<integer>26</integer>
 			<key>ProcessorType</key>
@@ -1537,7 +1549,7 @@
 			<key>MinimumVolume</key>
 			<integer>0</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string></string>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
@@ -1577,6 +1589,8 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
+			<false/>
+			<key>ForceResolution</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
