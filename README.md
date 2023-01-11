@@ -1,5 +1,5 @@
-# Acer-Swift-3-SF314-54-2018-MacOS-Big-Sur
-Use this OpenCore EFI to run MacOS Big Sur on Acer Swift 3 SF314-54 (2018) 
+# Acer-Swift-3-SF314-54-2018-MacOS
+Use this OpenCore EFI to run MacOS on Acer Swift 3 SF314-54 (2018) 
 
 **Now supporting MacOS Ventura 13.1 - 6 Jan 2023 **
 
