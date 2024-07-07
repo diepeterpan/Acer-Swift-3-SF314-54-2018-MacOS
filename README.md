@@ -1,7 +1,7 @@
 # Acer-Swift-3-SF314-54-2018-MacOS
 Use this OpenCore EFI to run MacOS on Acer Swift 3 SF314-54 (2018) 
 
-**Now supporting MacOS Sonoma 14.4 - 16 Mar 2024 **
+**Now supporting MacOS Sequoia 15.0 Beta 2 / tested on 4 July 2024 **
 
 ## Configuration
 
@@ -12,7 +12,7 @@ Use this OpenCore EFI to run MacOS on Acer Swift 3 SF314-54 (2018)
 | Memory              | 8GB/20GB  DDR4 2400MHz              |
 | Hard Disk           | Only tested with SATA SSD    |
 | Integrated Graphics | Intel UHD Graphics 620                     |
-| Monitor             |  FHD 1920x1080 (14 inch) |
+| Monitor             | FHD 1920x1080 (14 inch) |
 | Sound Card          | Realtek ALC256 (layout-id:13)           |
 | Wireless Card       | Swapped with a Intel AX210                    |
 | SD Card Reader      | Realtek                 |
