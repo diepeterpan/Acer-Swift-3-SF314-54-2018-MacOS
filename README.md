@@ -26,11 +26,7 @@ Use this OpenCore EFI to run MacOS on Acer Swift 3 SF314-54 (2018)
 - Everything else works well
 
 - Brightness keys now using new .kext and working 100% with normal brightness keys **F3** and **F4**
-  
-  You will have to plug in a USB keyboard revert mapping below if previously using the old method
 
-<img src="IMG_0641.PNG"/>
- 
 - Ensure to edit the **config.plist** and add valid  **PlatformInfo Generic** and **SMBIOS** values
 
   <img src="Image1.png"/>
