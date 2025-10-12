@@ -1,7 +1,7 @@
 # Acer-Swift-3-SF314-54-2018-MacOS
 Use this OpenCore EFI to run MacOS on Acer Swift 3 SF314-54 (2018) 
 
-**Now supporting MacOS Tahoe 26.0.1 / tested on 12 October 2025 **
+**Now supporting MacOS Tahoe 26.0.1 / tested on 12 October 2025**
 
 ## Configuration
 
@@ -25,6 +25,7 @@ Use this OpenCore EFI to run MacOS on Acer Swift 3 SF314-54 (2018)
 - Currently the **USB is not mapped** and just using an **USBInjectAll.kext** specific to Tahoe, *mapping USB in Tahoe is a todo and a maybe*.
 
 - Using **VoodooHDA** for audio as per https://github.com/chris1111/VoodooHDA-Tahoe install after upgrade to Tahoe
+  <br>**(NOTE: Only the Headphone out is working for external speakers and maybe HDMI sound)**
 
 - Using **IntelBluetooth 2.5.0** built for Tahoe see https://github.com/lshbluesky/IntelBluetoothFirmware?tab=readme-ov-file 
 
