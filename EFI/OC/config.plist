@@ -98,7 +98,7 @@
 				<key>Comment</key>
 				<string>UsbConnector or portType as needed to match actual USB configuration</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-UIAC.aml</string>
 			</dict>
@@ -392,6 +392,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
@@ -576,10 +578,10 @@
 				<string>Multimedia audio controller</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>layout-id</key>
-				<data>DQAAAA==</data>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
+				<key>xlayout-id</key>
+				<data>DQAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
 			<dict>
@@ -762,7 +764,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
 				<key>MaxKernel</key>
@@ -1543,11 +1545,11 @@
 				<key>bluetoothExternalDongleFailed</key>
 				<data>AA==</data>
 				<key>bluetoothInternalControllerInfo</key>
-				<data>AAAAAAAAAAAAAAAAAAA=</data>
+				<data>AAAAAAAAAACJZTpVLv0=</data>
 				<key>boot-args</key>
-				<string>-no_compat_check -lilubetall igfxonln=1 keepsyms=1 swd_panic=1</string>
+				<string>-no_compat_check -btlfxbeta igfxonln=1 keepsyms=1 swd_panic=1</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>AwgAAA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -1671,7 +1673,7 @@
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
-			<true/>
+			<false/>
 			<key>GlobalConnect</key>
 			<false/>
 			<key>HideVerbose</key>
@@ -1741,6 +1743,18 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>apfs_aligned.efi</string>
+			</dict>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
@@ -1985,6 +1999,8 @@
 			<true/>
 		</dict>
 		<key>ReservedMemory</key>
+		<array/>
+		<key>Unload</key>
 		<array/>
 	</dict>
 </dict>
